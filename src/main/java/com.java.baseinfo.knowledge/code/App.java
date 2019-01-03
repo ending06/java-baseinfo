@@ -1,4 +1,4 @@
-package com.java.baseinfo.knowledge;
+package com.java.baseinfo.knowledge.code;
 
 /**
  * Hello world!
