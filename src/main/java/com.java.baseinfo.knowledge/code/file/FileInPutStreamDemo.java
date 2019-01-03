@@ -11,6 +11,9 @@ import java.io.FileInputStream;
 
 public class FileInPutStreamDemo {
 
+    /**
+     * read file
+     * */
     public static void main(String[] args) {
         File file = new File("src/test/resources/read.txt");
         try {

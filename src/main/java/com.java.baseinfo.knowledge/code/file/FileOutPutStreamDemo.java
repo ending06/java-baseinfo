@@ -11,6 +11,9 @@ import java.io.IOException;
 
 public class FileOutPutStreamDemo {
 
+    /**
+     * write
+     * */
     public static void main(String[] args) {
         File file = new File("src/test/resources/read.txt");
 
