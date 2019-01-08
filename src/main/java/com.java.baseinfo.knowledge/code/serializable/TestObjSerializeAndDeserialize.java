@@ -16,7 +16,7 @@ public class TestObjSerializeAndDeserialize {
 
     public static void main(String[] args) {
         // 序列化
-        //SerializablePerson();
+        SerializablePerson();
         // 反序列化
         Deserialization();
     }
@@ -26,6 +26,7 @@ public class TestObjSerializeAndDeserialize {
         person.setAge(10);
         person.setName("测试");
         person.setSex("女");
+        person.setAddText("addText");
 
         String path = "src/test/resources/person.txt";
 
