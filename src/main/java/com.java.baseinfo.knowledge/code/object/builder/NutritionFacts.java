@@ -6,6 +6,7 @@ package com.java.baseinfo.knowledge.code.object.builder;
 // -------------------------------------------------------
 
 public class NutritionFacts {
+
     private final int servings;
 
     private final int servingSize;
