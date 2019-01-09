@@ -30,4 +30,11 @@ public class ColorPoint {
         ColorPoint cp = (ColorPoint) o;
         return cp.point.equals(point) && cp.color.equals(color);
     }
+
+    public static void main(String[] args) {
+        ColorPoint colorPoint = null;
+        Point point = new Point(1, 2);
+        // NullPointerException
+        System.out.printf("===>" + colorPoint.equals(point));
+    }
 }
