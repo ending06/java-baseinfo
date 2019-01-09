@@ -1,10 +1,10 @@
 package com.java.baseinfo.knowledge.code.object.comparable;
 
+import java.util.Arrays;
+
 // --------------------- Change Logs----------------------
 // <p>@author ruirui.qu Initial Created at 2019/1/9<p>
 // -------------------------------------------------------
-
-import java.util.Arrays;
 
 public class Student implements Comparable<Student> {
 
