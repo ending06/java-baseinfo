@@ -54,17 +54,22 @@ public enum Operation {
         }
     }
 
-    public static Operation fromString(String symbol){
+    public static Operation fromString(String symbol) {
         return stringToEnum.get(symbol);
     }
 
-    public static Operation inverse(Operation operation){
-        switch (operation){
-            case PLUS:return Operation.MINUS;
-            case MINUS:return Operation.PLUS;
-            case TIMES:return Operation.DIVIDE;
-            case DIVIDE:return Operation.TIMES;
-            default:throw new AssertionError("unkonw op:"+operation);
+    public static Operation inverse(Operation operation) {
+        switch (operation) {
+        case PLUS:
+            return Operation.MINUS;
+        case MINUS:
+            return Operation.PLUS;
+        case TIMES:
+            return Operation.DIVIDE;
+        case DIVIDE:
+            return Operation.TIMES;
+        default:
+            throw new AssertionError("unkonw op:" + operation);
         }
     }
 
