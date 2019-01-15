@@ -4,6 +4,7 @@ package com.java.baseinfo.knowledge.code.enumsautowired.enums;
 // <p>@author ruirui.qu Initial Created at 2019/1/14<p>
 // -------------------------------------------------------
 
+import java.nio.file.OpenOption;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,6 +57,16 @@ public enum Operation {
 
     public static Operation fromString(String symbol){
         return stringToEnum.get(symbol);
+    }
+
+    public static Operation inverse(Operation operation){
+        switch (operation){
+            case PLUS:return Operation.MINUS;
+            case MINUS:return Operation.PLUS;
+            case TIMES:return Operation.DIVIDE;
+            case DIVIDE:return Operation.TIMES;
+            default:throw new AssertionError("unkonw op:"+operation);
+        }
     }
 
     public static void main(String[] args) {
