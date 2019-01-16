@@ -31,6 +31,7 @@ public class EnumMapHerb {
     }
 
     public void sample() {
+
         List<EnumMapHerb> gardens = new ArrayList<>();
 
         Map<Type, Set<EnumMapHerb>> herbType = new EnumMap<Type, Set<EnumMapHerb>>(EnumMapHerb.Type.class);
