@@ -1,4 +1,4 @@
-package com.java.baseinfo.knowledge.code.overriding;
+package com.java.baseinfo.knowledge.code.methods.overriding;
 
 // --------------------- Change Logs----------------------
 // <p>@author ruirui.qu Initial Created at 2019/1/16<p>
